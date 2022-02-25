@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taconauta</title>
+</head>
+<body>
+    <img src="./assets/img/taconauta.jpg" alt="taconauta logo">
+    <h1>Hacer pedido</h1>
+    <h2>Aquí se hace el pedido</h2>
+
+    <form action="pedido.js">
+        <label for="nombre">Danos tu Nombre, Taconauta</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre">
+
+        <br>
+
+        <label for="mesa">tu mesa </label><br>
+        <input type="number" id="mesa" name="mesa" placeholder="0">
+
+        <p>¿Para aqui o para llevar?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aqui" >
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" id="llevar" name="aquiollevar" value="llevar" >
+        <label for="aqui">llevar</label><br>
+
+        <p>¿Tacos de que?</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" id="mercuioCuantos" name="mercurioCuantos" placeholder="mercurioCuantos"><br>
+
+        <input type="checkbox" id="venus" name="venus" value="venus">
+        <label for="venus">Venus</label>
+        <input type="number" id="venusCuantos" name="venusCuantos" placeholder="venusCuantos"<br>
+        
+        <p>¿Y para tomar?</p>
+        <select name="refresco" id="refresco" placeholder="Refrescos">
+            <option value="refresco">Refrescos</option>
+            <option value="coca cola">coca-cola</option>
+            <option value="fantaa">fanta</option>
+            <option value="manzana">manzana</option>
+            <option value="sprite">sprite</option>
+        </select>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <a href="./live_coding.html">
+
+        <br><br>
+        
+            <input type="button" value="INICIO">
+            </a>
+
+
+    </form>
+
+
+   
+</body>
+</html>
