@@ -4,5 +4,5 @@
 
 ***
 
-* [Preview practica3.html](https://htmlpreview.github.io/?https://github.com/albertz03/Practicas-HTML-LaunchX/blob/master/practica1/practica3.html).
+* [Preview practica3.html](https://htmlpreview.github.io/?https://github.com/albertz03/Practicas-HTML-LaunchX/blob/master/practica_3/practica3.html).
 
