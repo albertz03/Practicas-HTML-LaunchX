@@ -1,6 +1,6 @@
 # Practicas ["FrontEnd Mision 02: HTML"](https://github.com/albertz03/FrontEnd-Mision/tree/main/02%20-%20HTML)
 ***
-* ### Practica 03 - ["Elementos Compuestos."](https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/02%20-%20HTML/temario/3.-elementosCompuestos.md)
+* ### Practica 03 - ["Elementos Compuestos."](https://github.com/albertz03/FrontEnd-Mision/blob/main/02%20-%20HTML/temario/3.-elementosCompuestos.md)
 
 ***
 
