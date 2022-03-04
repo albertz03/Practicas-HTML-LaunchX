@@ -26,9 +26,9 @@
     <section>
       <nav>
         <ul>
-          <li><a href="./pasteleria_index.html">Home</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-          <li><a href="./about.html">Nosotros</a></li>
+            <li><a href="./pasteleria_index.html">Home</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./about.html">Nosotros</a></li>
         </ul>
       </nav>
       <article>
@@ -79,60 +79,70 @@
             </a>
           </section>
         </section>
-        <h2>Seleccion de pasteles</h2>
-    <p>Pastel Mentira (sabor misterioso)............................................ $430.00</p>
-    <p>Pastel Chocolate (triple chocolate).......................................... $520.00</p>
-    <p>Pastel Red Velvet (red velvet con frutos rojos )....................... $320.00</p>
+        <form action="pedido.js">
+            <label for="nombre">Danos tu Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre">
     
-    <hr>
-
-    <h2> Paquetes </h2>
-    <h3> (incluye 4 gorros, 4 vasos y 4 platos desechables)</h3>
-    <dl>
-        <dt>Paquete Aperture</dt>
-        <dd>Pastel Mentira con kit de personal APERTURE, gorros, vasos y platos de APERTURE</dd>
-        <dt>Paquete Triple Chocolate</dt>
-        <dd>Pastel Chocolate con kit de personal APERTURE, gorros, vasos y platos de APERTURE</dd>
-        <dt>Paquete Red Velvet</dt>
-        <dd>Pastel Red Velvet con kit de personal APERTURE, gorros, vasos y platos de APERTURE</dd>
-        
-    </dl>
-
-    <hr>
-
-    <h2>Toping Extra</h2>
-    <ul>
-        <li>Berries
-            <ul>
-                <li>fresas</li>
-                <li>zarzamoras</li>
-                <li>frambuesas</li>
-                <li>arandanos</li>
-            </ul>
-        </li>
-        <li>Coverturas
-            <ul>
-                <li>chocolate</li>
-                <li>vainilla</li>
-                <li>cajeta</li>
-                <li>fresa</li>
-            </ul>
-        </li>
-        <li>Adornos
-            <ul>
-                <li>Corona</li>
-                <li>Letrero</li>
-                <li>Vela normal</li>
-                <li>Vela especial</li>
-            </ul>
-        </li>
-    </ul>
-
-    <hr>
+            <br>
     
-    <a href="./pedido.html">
-    <input type="button" class="textbutton" value="hacer pedido">
-    </a>
+            <label for="direccion">Direccion</label><br>
+            <input type="text" id="direccion" name="direccion" placeholder="calle, numero, colonia">
+    
+            <p>¿En paquete o sin paquete?</p>
+            <input type="radio" id="paquete" name="conpaquete" value="En paquete" >
+            <label for="en paquete">En Paquete APERTURE + $50.00</label><br>
+            <input type="radio" id="sin paquete" name="conpaquete" value="en paquete" >
+            <label for="en paquete">Sin Paquete</label><br>
+    
+            <p>Elige tu pastel</p>
+            <input type="checkbox" id="Mentira" name="Mentira" value="Mentira">
+            <label for="mercurio">Mentira</label>
+            <input type="number" id="mentiraCuantos" name="mentiraCuantos" placeholder="cantidad"><br>
+    
+            <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <input type="number" id="chocolateCuantos" name="chocolateCuantos" placeholder="cantidad"><br>
+            
+            <input type="checkbox" id="redvelvet" name="redvelvet" value="redvelvet">
+            <label for="redvelvet">Red Velvet</label>
+            <input type="number" id="redvelvetCuantos" name="redvelvetCuantos" placeholder="cantidad"><br>
+
+            <p>¿Toping extra?</p>
+            <select name="Berries" id="berries" placeholder="Berries">
+                <option value="berries">Berries</option>
+                <option value="fresas">Fresas + $40.00</option>
+                <option value="zarzamoras">Zarzamoras + $45.00</option>
+                <option value="franbuesas">Franbuesas + $50.00</option>
+                <option value="arandanos">Arandanos + $30.00</option>
+            </select><br>
+            <select name="Coverturas" id="coverturas" placeholder="Coverturas">
+                <option value="coverturas">Coverturas</option>
+                <option value="chocolate">Chocolate + $30.00</option>
+                <option value="vainilla">Vainilla + $35.00</option>
+                <option value="cajeta">Cajeta + $30.00</option>
+                <option value="fresa">Fresa + $30.00</option>
+            </select><br>
+            <select name="Adornos" id="adornos" placeholder="Adornos">
+                <option value="adornos">Adornos</option>
+                <option value="Corona">Corona + $50.00</option>
+                <option value="letrero">Letrero + $55.00</option>
+                <option value="vela_normal">Vela normal + $10.00</option>
+                <option value="Vela_especial">Vela especial + $50.00</option>
+            </select>
+            <br><br>
+            
+            <input type="reset" class="textbutton">
+            
+            
+            <input type="submit" class="textbutton">
+       
+            <br><br><br><br>
+            <a href="./pasteleria_index.html">
+                <input type="button" value="INICIO" class="textbutton">
+                </a>
+    
+    
+        </form>
       </article>
     </section>
 
